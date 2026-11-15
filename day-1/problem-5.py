@@ -1,5 +1,7 @@
 def calculate_average(numbers):
     total = 0
+    if len(numbers) == 0: 
+        return
 
     for number in numbers:
         total += number
