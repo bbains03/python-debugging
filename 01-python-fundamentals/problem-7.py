@@ -1,5 +1,5 @@
 def find_highest(numbers):
-    highest = 0
+    highest = numbers[0]
 
     for number in numbers:
         if number > highest:
